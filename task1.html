@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVl2xU9FXFAH1Gz9ZL7PznQDx0q8i9zZUnRGnCzAaf"
+crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Section 1 -->
+<div class="bg-image"></div>
+<div class="bg-text">
+    <h1>Open the world of opportunities!</h1>
+    <h2>Learn to communicate with the world around you.</h2>
+    <br>
+    <br>
+    <button type="submit"><b>REGISTER NOW</b></button>
+</div>
+
+<!-- Section 2 -->
+<div id="section2" class="section" style="background-color: black;">
+    <h1 style="color:red;"><center> Start Your Programming Journey<br></h1>
+    <br><br><br><br><br>
+    <div class="container">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*KwglhJsrG0YD3hdjfDYbUA.jpeg" alt="Your Image" class="image">
+        <div class="text">
+            <h2 style="color:white;">Unlock the power of coding.</h2>
+            <p>Whether you're a beginner or an experienced developer, there's always something new to learn in the world of programming.Coding tests a variety of abilities. It hones problem-solving and analysis skills, such as finding errors and thinking logically. Further, coding often helps people develop teamwork and interpersonal skills since software and application projects are often cross-disciplinary and collaborative.</p>
+            <br><center>
+        </div>
+    </div>
+</div>
+
+<!-- Section 3 -->
+<h1 style="color:red;"><center>3 reasons to start learning programming languages</center></h1>
+<div id="section3" class="section">
+    <div class="icon-container">
+            <br><br>
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/diverse-work-team-4013366-3332110.png?f=webp" class="icon"> <!-- Replace with an icon related to international business -->
+            <p><b>Diverse Career Opportunities</b></p>
+            <p>Learning programming opens up various career paths in software development, web development, data science, and more.</p>
+        </div>
+        <div class="icon-container">
+            <img src="https://static.thenounproject.com/png/3153599-200.png" alt="Icon" class="icon"> <!-- Replace with an icon related to international business -->
+            <p><b>Essential in the Tech Industry</b></p>
+            <p>Programming languages are essential tools in the rapidly growing technology industry.</p>
+        </div>
+        <div class="icon-container">
+            <img src="https://d29fhpw069ctt2.cloudfront.net/clipart/114459/preview/learn-icon_preview_202f.png" alt="Icon" class="icon"> <!-- Replace with an icon related to traveling -->
+            <p><b>Continuous Learning Journey</b></p>
+            <p>The field of programming is dynamic, and there's always something new to explore and learn.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Section 4 -->
+<div id="section4" class="section">
+    <div class="container"><br><br><br>
+        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Best_Programming_Books.jpg" alt="Your Image" class="image">
+        <div class="text">
+            <br><br>
+            <h1 style="color:red;"> Explore Programming Books and Resources</h1>
+            <p style="color:white;"><b>Discover a vast collection of books and resources to enhance your programming skills.</b><br>
+            From beginner guides to advanced topics, our curated selection covers it all.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Section 5 -->
+<div id="section5" class="section">
+    <div class="text">
+        <h1><center>Get your free coding course!</center></h1>
+        <br><br><br>
+        <h2><center>30 lessons per week, Beginner to Advanced levels, course length: 4, 8-12 weeks</center></h2>
+        <br><br>
+        <form><center>
+            <input type="text" name="email" placeholder="Enter your e-mail*">
+            <button type="button" class="course-button" onclick="showMessage()">I Want Course</button>
+        </center></form>
+        <p id="message" style="display:none; color:red;">Please fill in your email address.</p>
+    </div>
+
+<!-- Section 6 -->
+<div id="section6" class="section" style="background-color: black;">
+    <div class="text">
+        <h1><center>What our students are saying</center></h1><br><br>
+        <h2><center>" My experience here was the best experience I have ever had in my life, and I do realize<br> the improvement in my Programming language. Sometimes I surprise myself.<br> Thank you very much! "<br><br><br>-John</center></h2>
+        
+    </div>
+</div>
+
+
+<!-- Section 7 -->
+<div id="section7" class="section">
+    <div class="text">
+        <h1>__________________________________________________</h1><br>
+        <p> The programs advertised on this page are not a commitment or guarantee from Langerba to provide funds. Programs, rates and other terms conditions on this page are subject to change without notice. <b>Privacy Policy</b><br>
+<br><br>
+        <!-- Social Media Icons -->
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" style="color: ;"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" style="color: blue;"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" style="color: blue;"></i></a>
+        <a href="https://www.google.com/" target="_blank"><i class="fab fa-google" style="color: blue;"></i></a></p>
+    </div>
+</div>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+<script>
+    function showMessage() {
+        var email = document.getElementsByName("email")[0].value;
+        var message = document.getElementById("message");
+
+        if (email === "") {
+            message.style.display = "block";
+        } else {
+            message.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
